@@ -1,0 +1,153 @@
+====================================================================
+  ANALISIS ASET - THE WEDDING OF YOSUA & AGNES
+  URL Sumber: https://besokakad.id/yosuaagnes/?to=Dhoiri
+  Tanggal Analisis: 18 November 2026
+  Platform: WordPress 7.1.4 + Elementor 4.4.1 + elkit/WeddingPress
+====================================================================
+
+--- INFORMASI DASAR ---
+Judul             : The Wedding Of Yosua & Agnes
+Tanggal Nikah     : Rabu, 18 November 2026
+CMS               : WordPress 7.1.4
+Page Builder      : Elementor 4.4.1 + Elementor Pro
+Plugin Undangan   : elkit (WeddingPress)
+Post ID           : 174219
+Nama Tamu (param) : Dhoiri (via ?to=Dhoiri)
+
+====================================================================
+  FONT ASSETS
+====================================================================
+
+CUSTOM WEB FONTS (UseAnyFont Plugin - WOFF2):
+1. authentic-signature  -> https://besokakad.id/wp-content/uploads/useanyfont/382Authentic-Signature.woff2
+2. jawa-palsu           -> https://besokakad.id/wp-content/uploads/useanyfont/826Jawa-Palsu.woff2
+3. analogue             -> https://besokakad.id/wp-content/uploads/useanyfont/1977analogue.woff2
+4. cute_cat             -> https://besokakad.id/wp-content/uploads/useanyfont/8848cute_cat.woff2
+5. josefin-sans         -> https://besokakad.id/wp-content/uploads/useanyfont/9345Josefin-Sans.woff2
+6. patung               -> https://besokakad.id/wp-content/uploads/useanyfont/3117patung.woff2
+7. holiday              -> https://besokakad.id/wp-content/uploads/useanyfont/633Holiday.woff2
+
+GOOGLE FONTS (Di-host lokal via Elementor):
+8.  Roboto          -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/roboto.css
+9.  Roboto Slab     -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/robotoslab.css
+10. Pinyon Script   -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/pinyonscript.css
+11. Cormorant Infant-> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/cormorantinfant.css
+12. Poppins         -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/poppins.css
+13. Great Vibes     -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/greatvibes.css
+14. Alex Brush      -> https://besokakad.id/wp-content/uploads/elementor/google-fonts/css/alexbrush.css
+
+====================================================================
+  GAMBAR (IMAGE ASSETS)
+====================================================================
+
+DEKORASI / TEMA:
+1. Motif Batak 3D (utama, 684x827)
+   -> https://besokakad.id/wp-content/uploads/2026/01/motin-batak-3d-besokakad.id_2.webp
+2. Motif Batak 3D (thumbnail, 248x300)
+   -> https://besokakad.id/wp-content/uploads/2026/01/motin-batak-3d-besokakad.id_2-248x300.webp
+3. Dekorasi "dan" / separator (435x582)
+   -> https://besokakad.id/wp-content/uploads/2025/12/dan-63.png
+4. Favicon / Logo BesokAkad
+   -> https://besokakad.id/wp-content/uploads/2023/06/cropped-besokakad-svg.png
+
+FOTO PASANGAN (Pre-Wedding - Upload Nov 2026, semua .webp):
+5.  Photo 2  (1179x2037) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__2.webp
+6.  Photo 3  (1707x2560) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__3-scaled.webp
+7.  Photo 4  (1440x1920) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__4.webp
+8.  Photo 5  (1101x1468) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__5.webp
+9.  Photo 6  (1440x1440) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__6.webp
+10. Photo 7  (1440x1440) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__7.webp
+11. Photo 9  (1381x1381) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__9.webp  [OG/Thumbnail Utama]
+12. Photo 10 (2448x1376) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__10.webp
+13. Photo 11 (2448x1378) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__11.webp
+14. Photo 12 (1378x2448) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__12.webp
+15. Photo 13 (1632x2448) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__13.webp
+16. Photo 16 (1632x2448) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__16.webp
+17. Photo 17 (1632x2448) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__17.webp
+18. Photo 18 (1707x2560) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__18-scaled.webp
+19. Photo 19 (2560x1707) -> https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__19-scaled.webp
+
+LOGO BANK:
+20. Logo BNI (1200x391) -> https://besokakad.id/wp-content/uploads/2023/06/1200px-BNI_logo.svg.webp
+21. Logo BRI (640x242)  -> https://besokakad.id/wp-content/uploads/2023/06/BRI_2020.svg.png
+
+====================================================================
+  AUDIO ASSETS
+====================================================================
+
+1. DONGAN MATUA - Teman Hidup (Enny Sinaga ft. Reezal Nainggolan) - CUT version
+   Format  : MP3
+   Autoplay: Ya (loop)
+   URL     : https://besokakad.id/wp-content/uploads/2025/06/DONGAN-MATUA-Teman-Hidup-Enny-Sinaga-Ft.-Reezal-Nainggolan-CUT.mp3
+
+====================================================================
+  VIDEO ASSETS
+====================================================================
+
+1. Background Video Motion Batak 3D v2
+   Format  : MP4
+   Autoplay: Ya, Muted, Sekali putar saja (play_once: yes)
+   URL     : https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_7.mp4
+
+====================================================================
+  INTEGRASI PIHAK KETIGA
+====================================================================
+
+1. Google Maps   : https://maps.app.goo.gl/7qdFs4UvHNeB3w1j7 (HKBP Kota Perdagangan)
+2. Instagram Yosua: https://www.instagram.com/albert_y0sua
+3. Instagram Agnes: https://www.instagram.com/_0ktaviaa01
+4. AOS (Animate On Scroll) - Semua elemen pakai data-aos="zoom-in-up"
+5. Yoast SEO - Schema.org JSON-LD
+6. Facebook OG  - App ID: 101224505826892
+7. LiteSpeed Cache - JS bundling & deferring
+
+====================================================================
+  INFORMASI WEDDING GIFT / REKENING
+====================================================================
+
+Bank BNI : 1173986315        (a/n Agnes Oktavia Gultom)
+Bank BRI : 534201014936531   (a/n -)
+
+====================================================================
+  STRUKTUR KONTEN / SECTIONS (12 Section)
+====================================================================
+
+ 1. Cover / Splash       : "The Wedding of Yosua & Agnes" + Nama Tamu + Tombol Buka
+ 2. Opening Video        : Background video motion Batak 3D + Nama + Tanggal 18/11/2026
+ 3. Pembuka (Y & A)      : Monogram "Y & A" + Ayat Markus 10:8-9
+ 4. Profil Pengantin     : Yosua (Albert Yosua Panjaitan) & Agnes (Agnes Oktavia Gultom) + IG
+ 5. Orang Tua            : Bapak/Mamak Yosua & Bapak/Ibu Agnes
+ 6. Pemberkatan          : Rabu 18 Nov 2026, 10.00 WIB — HKBP Kota Perdagangan, Simalungun
+ 7. Resepsi Adat         : Rabu 18 Nov 2026, 12.00 s/d Selesai — Sopo Godang HKBP
+ 8. Countdown            : Hitung mundur ke timestamp 1794978000
+ 9. Gallery (13 foto)    : Masonry 2 kolom, Lightbox, foto pre-wedding
+10. Love Story           : Timeline 3 tahap: 2024/2025/2026
+11. Wedding Gift         : BNI + BRI dengan fitur salin nomor
+12. RSVP / Ucapan        : Form komentar + daftar ucapan
+
+====================================================================
+  STATISTIK ASET
+====================================================================
+
+CSS Stylesheets          : 36 file
+Font Families            : 14 font (7 custom + 7 Google)
+Gambar Dekorasi/Template : 4 gambar
+Foto Pasangan (gallery)  : 15 foto (.webp)
+Logo Bank                : 2 gambar
+Audio                    : 1 file MP3
+Video                    : 1 file MP4
+JavaScript               : 3 file
+Integrasi Pihak Ketiga   : 7 layanan
+TOTAL ASET UNIK          : ~77 aset
+
+====================================================================
+  CATATAN TEKNIS
+====================================================================
+- Semua foto pasangan format WebP (lebih ringan)
+- Video background diputar SEKALI saja (play_once: yes)
+- JS di-bundle LiteSpeed Cache dan di-defer
+- LiteSpeed Cache aktif untuk performa
+- AOS Animate On Scroll pada semua elemen
+- Font custom di-host sendiri via UseAnyFont plugin
+- Google Fonts juga di-host lokal via Elementor
+====================================================================
