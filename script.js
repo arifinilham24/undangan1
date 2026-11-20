@@ -242,11 +242,11 @@ document.addEventListener('DOMContentLoaded', function () {
     function openLightbox(idx) {
       currentIdx = idx;
       imgEl.src  = galleryLinks[idx];
-      overlay.style.display = 'flex';
+      overlay.classList.add('open');
       document.body.style.overflow = 'hidden';
     }
     function closeLightbox() {
-      overlay.style.display = 'none';
+      overlay.classList.remove('open');
       imgEl.src = '';
       document.body.style.overflow = '';
     }
@@ -275,7 +275,7 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     document.addEventListener('keydown', function (e) {
-      if (overlay.style.display === 'flex') {
+      if (overlay.classList.contains('open')) {
         if (e.key === 'Escape')      closeLightbox();
         else if (e.key === 'ArrowLeft')  prevImage();
         else if (e.key === 'ArrowRight') nextImage();
