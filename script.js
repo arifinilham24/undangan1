@@ -85,10 +85,13 @@ document.addEventListener('DOMContentLoaded', function () {
     video.src = 'https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_7.mp4';
     video.load();
     video.play().catch(function () {});
-    // Putar sekali saja
+    // Saat video selesai: tampilkan gambar 1.png dengan fade in
     video.addEventListener('ended', function () {
       video.pause();
-      video.style.opacity = '0.3';
+      var endImg = document.getElementById('video-end-img');
+      if (endImg) {
+        endImg.style.opacity = '1';
+      }
     });
   }
 
