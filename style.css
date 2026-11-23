@@ -471,6 +471,19 @@ h1,h2,h3,h4,h5,h6 { margin: 0; }
   animation-duration: 1.5s !important;
 }
 
+/* ============================================================
+   SECTION 1 — Text animation (muncul di detik 14 video)
+   ============================================================ */
+.section1-text {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.9s ease, transform 0.9s ease;
+}
+.section1-text.section1-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 /* goyang-4: gentle sway animation for motif images */
 .goyang-4 {
   animation: goyang 4s ease-in-out infinite;

@@ -93,16 +93,36 @@ document.addEventListener('DOMContentLoaded', function () {
   }
 
   // ============================================================
-  //  4. TEXT ANIMATIONS SECTION VIDEO (zoomIn setelah 1s)
+  //  4. TEXT ANIMATIONS SECTION VIDEO — muncul saat video detik 14
   // ============================================================
   function triggerVideoTextAnims() {
-    var elems = document.querySelectorAll('.elementor-invisible.animated-slow');
-    elems.forEach(function (el, i) {
-      setTimeout(function () {
-        el.classList.remove('elementor-invisible');
-        el.classList.add('elementor-animated', 'zoomIn');
-      }, 1000 + i * 300);
-    });
+    var video  = document.getElementById('bg-video');
+    var elems  = document.querySelectorAll('.section1-text');
+    var triggered = false;
+
+    function doAnimate() {
+      if (triggered) return;
+      triggered = true;
+      elems.forEach(function (el, i) {
+        setTimeout(function () {
+          el.classList.add('section1-visible');
+        }, i * 220);
+      });
+    }
+
+    if (video) {
+      // Trigger utama: saat video mencapai detik 14
+      video.addEventListener('timeupdate', function () {
+        if (!triggered && video.currentTime >= 14) {
+          doAnimate();
+        }
+      });
+      // Fallback: jika video lambat load, animasi tetap jalan setelah 15 detik
+      setTimeout(doAnimate, 15000);
+    } else {
+      // Tidak ada video, langsung animasi
+      setTimeout(doAnimate, 500);
+    }
   }
 
   // ============================================================
