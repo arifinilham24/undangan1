@@ -484,6 +484,26 @@ h1,h2,h3,h4,h5,h6 { margin: 0; }
   transform: translateY(0);
 }
 
+/* ============================================================
+   SECTION 2 — Inner Card zoom-in-up (sama seperti cover card)
+   ============================================================ */
+@keyframes cardZoomInUp {
+  from {
+    opacity: 0;
+    transform: scale(0.7) translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+#section2-card {
+  opacity: 0;
+}
+#section2-card.card-animate {
+  animation: cardZoomInUp 0.9s cubic-bezier(0.25, 0.46, 0.45, 0.94) forwards;
+}
+
 /* goyang-4: gentle sway animation for motif images */
 .goyang-4 {
   animation: goyang 4s ease-in-out infinite;

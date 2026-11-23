@@ -52,6 +52,14 @@ document.addEventListener('DOMContentLoaded', function () {
         AOS.refresh();
       }
 
+      // Animasi Section 2 Inner Card (zoom-in-up seperti cover card)
+      var section2Card = document.getElementById('section2-card');
+      if (section2Card) {
+        setTimeout(function () {
+          section2Card.classList.add('card-animate');
+        }, 300);
+      }
+
       // Init countdown
       initCountdown();
 
