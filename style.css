@@ -227,20 +227,37 @@ h1,h2,h3,h4,h5,h6 { margin: 0; }
 
 /* ============================================================
    SECTION PROFIL PENGANTIN
-   bg: #6E1617CF + motif
+   bg: parallax fixed
    ============================================================ */
 .section-profil {
-  background-color: rgba(110,22,23,0.81);
-  background-image: url('https://besokakad.id/wp-content/uploads/2026/01/motion-batak-3D-v2-_-besokakad.id_6.webp');
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: multiply;
   position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
+/* Background parallax — posisi tetap saat scroll */
+.section-profil::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background-image: url('https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_1.webp');
+  background-size: cover;
+  background-position: center;
+  z-index: 0;
+  pointer-events: none;
+}
+/* Overlay gelap agar teks tetap terbaca */
+.section-profil::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: rgba(70,10,10,0.45);
+  z-index: 0;
+  pointer-events: none;
+}
+.section-profil > * { position: relative; z-index: 1; }
 
 /* Profil Card */
 .profil-card {
