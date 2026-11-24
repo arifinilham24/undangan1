@@ -207,10 +207,9 @@ h1,h2,h3,h4,h5,h6 { margin: 0; }
 .section-pembuka {
   background-color: var(--batak-red);
   background-image:
-    url('https://besokakad.id/wp-content/uploads/2026/01/motion-batak-3D-v2-_-besokakad.id_3.webp');
+    url('https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_6.webp');
   background-size: cover;
   background-position: center;
-  background-blend-mode: multiply;
   position: relative;
   display: flex;
   flex-direction: column;
