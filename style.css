@@ -357,6 +357,18 @@ h6 {
   box-shadow: 0 8px 32px rgba(0,0,0,0.4);
 }
 
+/* Card Profil Gabungan (Yosua + Agnes dalam satu card) */
+.profil-card-gabungan {
+  background: linear-gradient(170deg, #8C1515 0%, #5a0d0d 100%);
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  border: 2px solid rgba(153,121,73,0.7);
+  box-shadow: 0 8px 32px rgba(0,0,0,0.4);
+  padding-bottom: 4px;
+}
+
 .profil-card-inner {
   background: none !important;
   background-image: none !important;
