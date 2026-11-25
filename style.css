@@ -360,7 +360,7 @@ h6 {
 /* Card Profil Gabungan (Yosua + Agnes dalam satu card) */
 .profil-card-gabungan {
   background: linear-gradient(170deg, #8C1515 0%, #5a0d0d 100%);
-  border-radius: 20px;
+  border-radius: 50% 50% 50% 50% / 80px 80px 80px 80px;
   overflow: hidden;
   position: relative;
   text-align: center;
