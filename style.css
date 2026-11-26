@@ -433,6 +433,16 @@ h6 {
   justify-content: center;
 }
 
+/* Frame border dekoratif untuk card acara */
+.acara-card-frame {
+  background-image: url('https://besokakad.id/wp-content/uploads/2026/01/motin-batak-3d-besokakad.id_6.webp');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50% 50% 50% 50% / 90px 90px 90px 90px;
+  padding: 12px;
+  box-shadow: 0 8px 28px rgba(0,0,0,0.3);
+}
+
 .acara-card {
   background-color: #f5ede0;
   background-image:
@@ -440,12 +450,12 @@ h6 {
     url('https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_1.webp');
   background-size: cover;
   background-position: center top;
-  border-radius: 50% 50% 50% 50% / 80px 80px 80px 80px;
+  border-radius: 50% 50% 50% 50% / 78px 78px 78px 78px;
   overflow: hidden;
   padding: 48px 28px 36px;
   text-align: center;
-  border: 2px solid rgba(153,121,73,0.5);
-  box-shadow: 0 6px 24px rgba(0,0,0,0.18);
+  border: none;
+  box-shadow: none;
 }
 
 /* ============================================================
