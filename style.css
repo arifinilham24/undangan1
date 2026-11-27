@@ -489,10 +489,15 @@ h6 {
   background-position: center top;
   border-radius: 50% 50% 50% 50% / 78px 78px 78px 78px;
   overflow: hidden;
-  padding: 48px 28px 36px;
+  padding: 72px 32px 60px;
   text-align: center;
   border: none;
   box-shadow: none;
+  min-height: 580px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* ============================================================
