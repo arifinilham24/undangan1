@@ -100,64 +100,51 @@
   <!-- ==================== COVER SCREEN ==================== -->
   <article class="elementor-element elementor-element-7548dc6 e-con-full e-flex e-con e-child" id="cover-section"
     style="position:fixed;top:0;left:0;width:100%;height:100%;z-index:9999;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;">
-    <!-- BG Cover -->
-    <div
-      style="position:absolute;inset:0;background-image:url('https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id__16.webp');background-size:cover;background-position:42% 100%;z-index:0;">
-    </div>
-    <div
-      style="position:absolute;inset:0;background:linear-gradient(to bottom, transparent 40%, rgba(0,0,0,0.85) 100%);z-index:1;">
-    </div>
+
+    <!-- BG Cover: motif Batak merah -->
+    <div style="position:absolute;inset:0;background-image:url('https://besokakad.id/wp-content/uploads/2026/09/motion-batak-3D-v2-_-besokakad.id_1.webp');background-size:cover;background-position:center;z-index:0;"></div>
+    <!-- Overlay gelap ringan atas -->
+    <div style="position:absolute;inset:0;background:linear-gradient(to bottom, rgba(80,10,10,0.35) 0%, rgba(80,10,10,0.15) 50%, rgba(80,10,10,0.5) 100%);z-index:1;"></div>
 
     <!-- Konten Cover -->
-    <div
-      style="position:relative;z-index:2;width:100%;display:flex;flex-direction:column;align-items:center;text-align:center;padding:20px;">
+    <div style="position:relative;z-index:2;width:100%;display:flex;flex-direction:column;align-items:center;text-align:center;padding:24px 20px 20px;">
 
-      <div style="margin-bottom:8px;">
-        <h3
-          style="font-family:'Poppins',sans-serif;font-size:14px;color:#fff;font-weight:300;letter-spacing:2px;text-transform:uppercase;margin:0;">
-          The Wedding of</h3>
-      </div>
+      <!-- The Wedding Of -->
+      <p style="font-family:'Cormorant Infant',serif;font-size:15px;color:#fff;font-weight:400;letter-spacing:2px;margin:0 0 14px;text-shadow:0 1px 4px rgba(0,0,0,0.4);">The Wedding Of</p>
 
-      <!-- Card tengah dengan foto motif -->
-      <div data-aos="zoom-in-up" data-aos-anchor-placement="center" data-aos-duration="1000"
-        style="position:relative;width:200px;margin:10px auto;">
-        <div style="position:relative;border-radius:16px;overflow:hidden;">
-          <img src="https://besokakad.id/wp-content/uploads/2026/01/motin-batak-3d-besokakad.id_2.webp"
-            style="width:100%;display:block;border-radius:16px;" alt="">
+      <!-- Foto oval + Bunga -->
+      <div style="position:relative;width:200px;margin:0 auto 16px;">
+        <!-- Bunga kanan atas -->
+        <img src="https://besokakad.id/wp-content/uploads/2025/12/Garden-03-Couple-1.png"
+          style="position:absolute;top:-30px;right:-40px;width:120px;z-index:3;pointer-events:none;" alt="">
+        <!-- Frame oval foto -->
+        <div style="width:170px;height:215px;border-radius:85px;overflow:hidden;border:3px solid rgba(255,255,255,0.85);box-shadow:0 6px 24px rgba(0,0,0,0.4);margin:0 auto;position:relative;z-index:2;">
+          <img src="https://besokakad.id/wp-content/uploads/2026/11/The-Wedding-Of-Yosua-Agnes-besokakad.id_.webp"
+            style="width:100%;height:100%;object-fit:cover;object-position:top center;" alt="Yosua & Agnes">
         </div>
       </div>
 
-      <div style="margin:4px 0;">
-        <h3
-          style="font-family:'Cormorant Infant',serif;font-size:32px;color:#fff;font-weight:600;text-transform:uppercase;letter-spacing:2px;margin:0;">
-          Yosua &amp; Agnes</h3>
-      </div>
+      <!-- Nama pasangan -->
+      <h3 style="font-family:'Poppins',sans-serif;font-size:28px;color:#fff;font-weight:700;text-transform:uppercase;letter-spacing:2px;margin:0 0 12px;text-shadow:0 2px 8px rgba(0,0,0,0.5);">Yosua &amp; Agnes</h3>
 
-      <div style="margin:10px 0 6px;">
-        <h2
-          style="font-family:'Poppins',sans-serif;font-size:13px;color:rgba(255,255,255,0.85);font-weight:300;margin:0;">
-          Kepada Yth.</h2>
-      </div>
-      <div style="margin:0 0 20px;">
-        <h2 id="guest-name"
-          style="font-family:'Cormorant Infant',serif;font-size:26px;color:#fff;font-weight:500;font-style:italic;margin:0;min-height:36px;">
-        </h2>
-      </div>
+      <!-- Kepada Yth -->
+      <p style="font-family:'Poppins',sans-serif;font-size:12px;color:rgba(255,255,255,0.85);font-weight:300;margin:0 0 4px;letter-spacing:1px;">Kepada Yth.</p>
+      <h2 id="guest-name"
+        style="font-family:'Cormorant Infant',serif;font-size:28px;color:#fff;font-weight:600;font-style:italic;margin:0 0 20px;min-height:38px;text-shadow:0 2px 8px rgba(0,0,0,0.4);">
+      </h2>
 
       <!-- Tombol Buka Undangan -->
       <div id="openBtn">
         <a href="#open" id="open-btn-link" class="elementor-button elementor-button-link elementor-size-sm"
-          style="display:inline-flex;align-items:center;gap:8px;background:#721717;color:#fff;border:1px solid #fff;border-radius:20px;padding:10px 24px;font-family:'Poppins',sans-serif;font-size:13px;font-weight:400;text-decoration:none;cursor:pointer;">
-          <svg aria-hidden="true" style="width:14px;height:14px;" viewBox="0 0 512 512"
-            xmlns="http://www.w3.org/2000/svg">
-            <path fill="currentColor"
-              d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z" />
+          style="display:inline-flex;align-items:center;gap:8px;background:#721717;color:#fff;border:1px solid rgba(255,255,255,0.7);border-radius:24px;padding:11px 28px;font-family:'Poppins',sans-serif;font-size:13px;font-weight:500;text-decoration:none;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,0.3);">
+          <svg aria-hidden="true" style="width:14px;height:14px;" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+            <path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"/>
           </svg>
           Buka Undangan
         </a>
       </div>
 
-      <div style="height:30px;"></div>
+      <div style="height:20px;"></div>
     </div>
   </article>
 
